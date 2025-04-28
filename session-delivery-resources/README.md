@@ -49,6 +49,12 @@ The [slides](presentations.md) have presenter notes in each part of the session
 35:00 - 40:00 | Exploring AI Agent Frameworks 
 40:00 - 45:00 | Session review - Takeaways 
 
+### Slides in additional languages
+
+| Language | Last updated |
+|------------------- | ---- |
+| [Spanish](https://github.com/microsoft/aitour-getting-started-with-ai-agents/blob/main/session-delivery-resources/ES-MX_BRK444_Tech_H2_V1.0.pptx) | 2025.04.27 |
+
 ## Deployment / Preparation
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
