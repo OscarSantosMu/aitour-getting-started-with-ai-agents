@@ -2,10 +2,6 @@
 [![Azure AI Community Discord](
 https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=academic-105485-koreyst)
 
-This repo is a companion to this session at Microsoft AI Tour, a worldwide tour of events.
-
-> Learn more about Microsoft AI Tour on the official website.
-
 ## Session Description
 
 Explore the fascinating world of AI agents with Azure! Dive into the innovative Azure AI Agent Service, where you’ll discover how these intelligent agents can transform processes and products. Learn about the diverse use cases, from automating customer support to enhancing decision-making processes. Understand why AI agents are essential for modern businesses, offering efficiency, scalability, and advanced problem-solving capabilities. 
@@ -35,6 +31,74 @@ Explore the fascinating world of AI agents with Azure! Dive into the innovative 
 | AI Agent Service  | [AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/) | Azure AI Agent Service is a fully managed service designed to empower developers to securely build, deploy, and scale high-quality, and extensible AI agents without needing to manage the underlying compute and storage resources |
 | Semantic Kernel Agent Framework  | [Semantic Kernel Agent Framework](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/?pivots=programming-language-csharp) | The Semantic Kernel Agent Framework provides a platform within the Semantic Kernel eco-system that allow for the creation of AI agents and the ability to incorporate agentic patterns into any application based on the same patterns and features that exist in the core Semantic Kernel framework. |
 | AutoGen Agent Framework  | [AutoGen Agent Framework](https://microsoft.github.io/autogen/stable/) | AutoGen core offers an easy way to quickly build event-driven, distributed, scalable, resilient AI agent systems. Agents are developed by using the Actor model.  |
+
+
+## Instructions
+
+### Demos from Session-Delivery-Resources
+
+The session includes Python notebooks located in the `session-delivery-resources` folder. These notebooks demonstrate the following:
+
+1. **Function Calling**: Learn how to use Azure AI Agent Service to call functions programmatically, enabling dynamic interactions and task execution.
+2. **Code Interpreter Tool**: Explore the integration of a code interpreter tool to execute code snippets.
+
+### Initial Deployment for Azure AI Foundry
+
+To get started with Azure AI Foundry, follow these steps:
+
+#### Manual Deployment
+1. Navigate to the Azure AI Foundry portal: [Azure AI Foundry](https://ai.azure.com/).
+2. Create a new project and configure the required settings.
+3. Deploy the necessary resources, as per the project requirements.
+
+### Basic Setup
+
+1. Clone the repository to your local machine or run the code through GitHub Codespaces.
+    ```bash
+    git clone https://github.com/OscarSantosMu/aitour-getting-started-with-ai-agents.git
+    cd aitour-getting-started-with-ai-agents
+    git checkout workshop
+    ```
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Login with Azure CLI
+
+```bash
+az login --use-device-code
+```
+
+Then copy-paste the code in the browser and once logged in, select the azure subscription to use.
+
+### Project Connection String
+
+1. Obtain the connection string for your Azure AI Foundry project.
+2. Place the connection string in a `.env` file at the root of the project.
+3. Use the provided `.env.example` file as a reference:
+    ```plaintext
+    cp .env.example .env
+    ```
+4. Update the `.env` file with your actual connection string.
+
+### Running the Demos
+
+1. Open the Python notebooks in the `session-delivery-resources` folder using Jupyter Notebook or any compatible environment.
+2. Follow the instructions within each notebook to execute the demos and explore the features.
+
+
+## Presented by
+
+<table>
+<tr>
+    <td align="center"><a href="https://github.com/oscarsantosmu">
+        <img src="https://github.com/oscarsantosmu.png" width="100px;" alt="Oscar Santos"/><br />
+        <sub><b>Oscar Santos</b></sub>
+    </a><br />
+    </td>
+</tr></table>
+
 
 ## Content Owners
 
